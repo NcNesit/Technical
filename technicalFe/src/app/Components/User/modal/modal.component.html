@@ -1,0 +1,29 @@
+<h1>Edit user</h1>
+
+<div class="form-container">
+    <mat-form-field>
+        <input [(ngModel)]="data.userName" matInput placeholder="Input">
+    </mat-form-field>
+    <mat-form-field>
+        <input [(ngModel)]="data.firstName" matInput placeholder="Input">
+    </mat-form-field>
+    <mat-form-field>
+        <input [(ngModel)]="data.lastName" matInput placeholder="Input">
+    </mat-form-field>
+    <mat-form-field>
+        <input [(ngModel)]="data.email" matInput placeholder="Input">
+    </mat-form-field>
+    <mat-form-field>
+        <input [(ngModel)]="data.phoneNumber" matInput placeholder="Input">
+    </mat-form-field>
+</div>
+
+<!-- <mat-form-field>
+    <mat-label>Snack bar duration (seconds)</mat-label>
+    <input type="number" [(ngModel)]="durationInSeconds" matInput>
+  </mat-form-field>
+  <span class="example-pizza-party">
+    Pizza party!!! 🍕
+  </span> -->
+
+<button mat-raised-button color="primary" (click)="updateUser()">Save Changes</button>

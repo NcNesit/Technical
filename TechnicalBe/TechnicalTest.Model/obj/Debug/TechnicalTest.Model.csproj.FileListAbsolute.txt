@@ -1,0 +1,12 @@
+C:\Users\rodrigo\source\repos\TechnicalTest\TechnicalTest.Model\bin\Debug\TechnicalTest.Model.dll
+C:\Users\rodrigo\source\repos\TechnicalTest\TechnicalTest.Model\bin\Debug\TechnicalTest.Model.pdb
+C:\Users\rodrigo\source\repos\TechnicalTest\TechnicalTest.Model\obj\Debug\TechnicalTest.Model.csproj.CoreCompileInputs.cache
+C:\Users\rodrigo\source\repos\TechnicalTest\TechnicalTest.Model\obj\Debug\TechnicalTest.Model.dll
+C:\Users\rodrigo\source\repos\TechnicalTest\TechnicalTest.Model\obj\Debug\TechnicalTest.Model.pdb
+C:\Users\rodrigo\source\repos\TechnicalTest\TechnicalTest.Model\obj\Debug\TechnicalTest.Model.csprojAssemblyReference.cache
+E:\Descargas\TechnicalTest\TechnicalTest\TechnicalTest.Model\bin\Debug\TechnicalTest.Model.dll
+E:\Descargas\TechnicalTest\TechnicalTest\TechnicalTest.Model\bin\Debug\TechnicalTest.Model.pdb
+E:\Descargas\TechnicalTest\TechnicalTest\TechnicalTest.Model\obj\Debug\TechnicalTest.Model.csproj.AssemblyReference.cache
+E:\Descargas\TechnicalTest\TechnicalTest\TechnicalTest.Model\obj\Debug\TechnicalTest.Model.csproj.CoreCompileInputs.cache
+E:\Descargas\TechnicalTest\TechnicalTest\TechnicalTest.Model\obj\Debug\TechnicalTest.Model.dll
+E:\Descargas\TechnicalTest\TechnicalTest\TechnicalTest.Model\obj\Debug\TechnicalTest.Model.pdb

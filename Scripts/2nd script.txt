@@ -1,0 +1,94 @@
+USE [TechnicalTestDB]
+/* Address seeding */
+INSERT INTO dbo.Addresses 
+VALUES('SomeAddress','123','9','SomeState','SomeCity','SomeCountry','1234')
+INSERT INTO dbo.Addresses 
+VALUES('SomeAddress2','123','9','SomeState','SomeCity','SomeCountry','1234')
+INSERT INTO dbo.Addresses 
+VALUES('SomeAddress3','123','9','SomeState','SomeCity','SomeCountry','1234')
+INSERT INTO dbo.Addresses 
+VALUES('SomeAddress4','123','9','SomeState','SomeCity','SomeCountry','1234')
+INSERT INTO dbo.Addresses 
+VALUES('SomeAddress5','123','9','SomeState','SomeCity','SomeCountry','1234')
+INSERT INTO dbo.Addresses 
+VALUES('SomeAddress6','123','9','SomeState','SomeCity','SomeCountry','1234')
+INSERT INTO dbo.Addresses 
+VALUES('SomeAddress7','123','9','SomeState','SomeCity','SomeCountry','1234')
+INSERT INTO dbo.Addresses 
+VALUES('SomeAddress8','123','9','SomeState','SomeCity','SomeCountry','1234')
+INSERT INTO dbo.Addresses 
+VALUES('SomeAddress9','123','9','SomeState','SomeCity','SomeCountry','1234')
+INSERT INTO dbo.Addresses 
+VALUES('SomeAddress10','123','9','SomeState','SomeCity','SomeCountry','1234')
+/* Companies seeding */
+INSERT INTO dbo.Companies
+VALUES('SomeCompanyName',1,'123456789',1)
+INSERT INTO dbo.Companies
+VALUES('SomeCompanyName',2,'123456789',1)
+INSERT INTO dbo.Companies
+VALUES('SomeCompanyName',3,'123456789',1)
+INSERT INTO dbo.Companies
+VALUES('SomeCompanyName',4,'123456789',1)
+INSERT INTO dbo.Companies
+VALUES('SomeCompanyName',5,'123456789',1)
+INSERT INTO dbo.Companies
+VALUES('SomeCompanyName',6,'123456789',1)
+INSERT INTO dbo.Companies
+VALUES('SomeCompanyName',7,'123456789',1)
+INSERT INTO dbo.Companies
+VALUES('SomeCompanyName',8,'123456789',1)
+INSERT INTO dbo.Companies
+VALUES('SomeCompanyName',9,'123456789',1)
+INSERT INTO dbo.Companies
+VALUES('SomeCompanyName',10,'123456789',1)
+
+/*Roles Seeding*/
+INSERT INTO dbo.UserRoles
+VALUES ('Admin','Administrator role')
+INSERT INTO dbo.UserRoles
+VALUES ('User','User role')
+
+
+/* Users seeding */
+INSERT INTO dbo.Users
+VALUES ('testUser1', 'testFN1', 'testLN1', 'testEmail1', '123456', 1, 1 )
+INSERT INTO dbo.Users
+VALUES ('testUser2', 'testFN2', 'testLN2', 'testEmail2', '123456', 2, 2 )
+INSERT INTO dbo.Users
+VALUES ('testUser3', 'testFN3', 'testLN3', 'testEmail3', '123456', 3, 3 )
+INSERT INTO dbo.Users
+VALUES ('testUser4', 'testFN4', 'testLN5', 'testEmail6', '123456', 4, 4 )
+INSERT INTO dbo.Users
+VALUES ('testUser5', 'testFN5', 'testLN5', 'testEmail5', '123456', 5, 5 )
+INSERT INTO dbo.Users
+VALUES ('testUser6', 'testFN6', 'testLN7', 'testEmail8', '123456', 6, 6 )
+INSERT INTO dbo.Users
+VALUES ('testUser7', 'testFN7', 'testLN7', 'testEmail7', '123456', 7, 7 )
+INSERT INTO dbo.Users
+VALUES ('testUser8', 'testFN8', 'testLN8', 'testEmail8', '123456', 8, 8 )
+INSERT INTO dbo.Users
+VALUES ('testUser9', 'testFN9', 'testLN9', 'testEmail9', '123456', 9, 9 )
+INSERT INTO dbo.Users
+VALUES ('testUser10', 'testFN10', 'testLN10', 'testEmail10', '123456', 10, 10 )
+
+/*User roles seeding*/
+INSERT INTO dbo.User_UserRoles
+VALUES(1,1)
+INSERT INTO dbo.User_UserRoles
+VALUES(2,2)
+INSERT INTO dbo.User_UserRoles
+VALUES(3,1)
+INSERT INTO dbo.User_UserRoles
+VALUES(4,2)
+INSERT INTO dbo.User_UserRoles
+VALUES(5,1)
+INSERT INTO dbo.User_UserRoles
+VALUES(6,2)
+INSERT INTO dbo.User_UserRoles
+VALUES(7,1)
+INSERT INTO dbo.User_UserRoles
+VALUES(8,2)
+INSERT INTO dbo.User_UserRoles
+VALUES(9,1)
+INSERT INTO dbo.User_UserRoles
+VALUES(10,2)
