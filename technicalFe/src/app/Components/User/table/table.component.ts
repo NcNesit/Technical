@@ -27,14 +27,16 @@ export class TableComponent implements AfterViewInit, OnInit {
   displayedColumns = ['select', 'userName', 'firstName', 'lastName', 'email', 'phoneNumber'];
 
   constructor(private dialogRef: MatDialog, public userSerive: UserService) {
-    this.userSerive.GetAllUsers().then(res => this.users = res);   
-    console.warn(this.users)
-    localStorage.setItem('users', JSON.stringify(this.users));
+    
     this.dataSource = new TableDataSource();
   }
 
   async ngOnInit(): Promise<void> {
 
+    let request = this.userSerive.GetAllUsers().then(resp =>{
+      this.users = resp;
+      localStorage.setItem('users', JSON.stringify(this.users));
+    })
     
   }
 

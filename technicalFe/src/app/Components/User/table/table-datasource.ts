@@ -17,8 +17,8 @@ export interface TableItem {
 }
 
 
-var retrievedObject = localStorage.getItem('users');                     
-const EXAMPLE_DATA: TableItem[] = JSON.parse(retrievedObject!.toString())
+// var retrievedObject = localStorage.getItem('users');                     
+// const EXAMPLE_DATA: TableItem[] = JSON.parse(retrievedObject!.toString())
 
 
 
@@ -31,7 +31,8 @@ const EXAMPLE_DATA: TableItem[] = JSON.parse(retrievedObject!.toString())
  * (including sorting, pagination, and filtering).
  */
 export class TableDataSource extends DataSource<TableItem> {
-  data: TableItem[] = EXAMPLE_DATA;
+  retrievedObject = localStorage.getItem('users'); 
+  data: TableItem[] = JSON.parse(this.retrievedObject!.toString())
   paginator: MatPaginator | undefined;
   sort: MatSort | undefined;
 
